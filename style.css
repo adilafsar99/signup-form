@@ -5,6 +5,20 @@
     font-family: Roboto;
 }
 
+input {
+    font-family: inherit;
+    font-size: 100%;
+    appearance: none;
+    border: 2px solid #e0e0e0;
+    border-radius: 3px;
+    padding: 5px;
+    width: 100%;
+}
+
+input:focus {
+    border-color: #4277e9;
+}
+
 .container {
    display: flex;
    height: 100vh;
@@ -46,3 +60,4 @@
     margin: 8rem 0 2rem 0;
     padding: 0 2rem;
 }
+
