@@ -44,7 +44,7 @@
 									maxlength="24"
 									required
 								/>
-								<p class="error-message">This is an error message</p>
+								<p class="error-message"></p>
 							</div>
 							<div class="input-div">
 								<label for="last-name">Last Name</label>
@@ -55,7 +55,7 @@
 									maxlength="24"
 									required
 								/>
-								<p class="error-message">This is an error message</p>
+								<p class="error-message"></p>
 							</div>
 							<div class="input-div">
 								<label for="email">Email</label>
@@ -66,7 +66,7 @@
 									placeholder="name@example.com"
 									required
 								/>
-								<p class="error-message">This is an error message</p>
+								<p class="error-message"></p>
 							</div>
 							<div class="input-div">
 								<label for="phone-number">Phone Number</label>
@@ -74,10 +74,10 @@
 									type="tel"
 									name="phone-number"
 									id="phone-number"
-									min="10"
+									pattern="03(?=[0-9]{9})[0-9]{9}|[+]923(?=[0-9]{9})[0-9]{9}"
 									required
 								/>
-								<p class="error-message">This is an error message</p>
+								<p class="error-message"></p>
 							</div>
 							<div class="input-div">
 								<label for="password">Password</label>
@@ -88,7 +88,7 @@
 									minlength="8"
 									required
 								/>
-								<p class="error-message">This is an error message</p>
+								<p class="error-message"></p>
 							</div>
 							<div class="input-div">
 								<label for="confirm-password">Confirm Password</label>
@@ -99,7 +99,7 @@
 									minlength="8"
 									required
 								/>
-								<p class="error-message">This is an error message</p>
+								<p class="error-message"></p>
 							</div>
 						</div>
 						<div class="button-and-link">
