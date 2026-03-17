@@ -10,7 +10,7 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="style.css" />
-		<script src="script.js"></script>
+		<script src="script.js" defer></script>
 		<title>Signup Page</title>
 	</head>
 	<body>
@@ -33,15 +33,17 @@
 					<p class="pitch-text">Wanna make that click?</p>
 				</div>
 				<div class="form-div">
-					<form class="signup-form" action="" method="post">
+					<form class="signup-form" action="" method="post" novalidate>
 						<div class="fields">
 							<div class="input-div">
 								<label for="first-name">First Name</label>
 								<input type="text" name="first-name" id="first-name" required />
+								<p class="error-message">This is an error message</p>
 							</div>
 							<div class="input-div">
 								<label for="last-name">Last Name</label>
 								<input type="text" name="last-name" id="last-name" required />
+								<p class="error-message">This is an error message</p>
 							</div>
 							<div class="input-div">
 								<label for="email">Email</label>
@@ -52,6 +54,7 @@
 									placeholder="name@example.com"
 									required
 								/>
+								<p class="error-message">This is an error message</p>
 							</div>
 							<div class="input-div">
 								<label for="phone-number">Phone Number</label>
@@ -61,10 +64,12 @@
 									id="phone-number"
 									required
 								/>
+								<p class="error-message">This is an error message</p>
 							</div>
 							<div class="input-div">
 								<label for="password">Password</label>
 								<input type="password" name="password" id="password" required />
+								<p class="error-message">This is an error message</p>
 							</div>
 							<div class="input-div">
 								<label for="confirm-password">Confirm Password</label>
@@ -74,6 +79,7 @@
 									id="confirm-password"
 									required
 								/>
+								<p class="error-message">This is an error message</p>
 							</div>
 						</div>
 						<div class="button-and-link">

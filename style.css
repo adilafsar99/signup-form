@@ -107,3 +107,19 @@ a {
 #create-account-btn:hover {
     background-color: #ad3cee;
 }
+
+
+.invalid input {
+    border-color: #df3a3a;
+}
+
+.error-message {
+    color: #df3a3a;
+    padding: 1rem;
+    margin: 1rem 0;
+    display: none;
+}
+
+.visible {
+    display: block;
+}
