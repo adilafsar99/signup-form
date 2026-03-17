@@ -110,8 +110,12 @@ a {
 }
 
 
-.invalid input {
-    border-color: #df3a3a;
+input.invalid {
+    border-color: #ec5c5c;
+}
+
+input.valid {
+    border-color: #68ee68;
 }
 
 .error-message {
