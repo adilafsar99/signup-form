@@ -1,3 +1,9 @@
+:root {
+    --site-color: #9416bb;
+    --valid-color: #68ee68;
+    --invalid-color: #ec5c5c;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -92,7 +98,7 @@ input:focus {
     color: #ffffff;
     font-size: inherit;
     font-weight: bold;
-    background-color: #a23bdf;
+    background-color: var(--site-color);
     border-radius: 5px;
     border: none;
     cursor: pointer;
@@ -100,27 +106,30 @@ input:focus {
     transition: all 0.2s ease-out;
 }
 
-a {
-    color: #ad3cee;
+#login-link {
+    color: var(--site-color);
     transition: all 0.2s ease;
 }
 
 #create-account-btn:hover {
-    background-color: #ad3cee;
+    background-color: #b018df;
 }
 
+#login-link:hover {
+    text-decoration: none;
+}
 
 input.invalid {
-    border-color: #ec5c5c;
+    border-color: var(--invalid-color);
 }
 
 input.valid {
-    border-color: #68ee68;
+    border-color: var(--valid-color);
     background-color: #f0f0f0;
 }
 
 .error-message {
-    color: #df3a3a;
+    color: var(--invalid-color);
     padding-top: 2px;
     font-size: 0.9em;
     display: none;
