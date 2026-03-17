@@ -9,7 +9,7 @@
 			href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
 			rel="stylesheet"
 		/>
-        <link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="style.css" />
 		<title>Signup Page</title>
 	</head>
 	<body>
@@ -21,63 +21,67 @@
 						src="./images/odin-lined.png"
 						alt="logo for my signup page"
 					/>
-                    <p id="logo-text">Surge Ltd.</p>
+					<p id="logo-text">Surge Ltd.</p>
 				</div>
 			</section>
 			<section class="form-section">
 				<div class="pitch-text-div">
-					<p class="pitch-text">The way to your destination will be revealed with just one click.</p>
 					<p class="pitch-text">
-						Wanna make that click?
+						The way to your destination will be revealed with just one click.
 					</p>
+					<p class="pitch-text">Wanna make that click?</p>
 				</div>
 				<div class="form-div">
 					<form class="signup-form" action="" method="post">
-						<div class="input-div">
-							<label for="first-name">First Name</label>
-							<input type="text" name="first-name" id="first-name" required />
+						<div class="fields">
+							<div class="input-div">
+								<label for="first-name">First Name</label>
+								<input type="text" name="first-name" id="first-name" required />
+							</div>
+							<div class="input-div">
+								<label for="last-name">Last Name</label>
+								<input type="text" name="last-name" id="last-name" required />
+							</div>
+							<div class="input-div">
+								<label for="email">Email</label>
+								<input
+									type="email"
+									name="email"
+									id="email"
+									placeholder="name@example.com"
+									required
+								/>
+							</div>
+							<div class="input-div">
+								<label for="phone-number">Phone Number</label>
+								<input
+									type="tel"
+									name="phone-number"
+									id="phone-number"
+									required
+								/>
+							</div>
+							<div class="input-div">
+								<label for="password">Password</label>
+								<input type="password" name="password" id="password" required />
+							</div>
+							<div class="input-div">
+								<label for="confirm-password">Confirm Password</label>
+								<input
+									type="password"
+									name="confirm-password"
+									id="confirm-password"
+									required
+								/>
+							</div>
 						</div>
-						<div class="input-div">
-							<label for="last-name">Last Name</label>
-							<input type="text" name="last-name" id="last-name" required />
-						</div>
-						<div class="input-div">
-							<label for="email">Email</label>
-							<input
-								type="email"
-								name="email"
-								id="email"
-								placeholder="name@example.com"
-								required
-							/>
-						</div>
-						<div class="input-div">
-							<label for="phone-number">Phone Number</label>
-							<input
-								type="tel"
-								name="phone-number"
-								id="phone-number"
-								required
-							/>
-						</div>
-						<div class="input-div">
-							<label for="password">Password</label>
-							<input type="password" name="password" id="password" required />
-						</div>
-						<div class="input-div">
-							<label for="confirm-password">Confirm Password</label>
-							<input
-								type="password"
-								name="confirm-password"
-								id="confirm-password"
-								required
-							/>
-						</div>
-						<button id="create-account-btn">Create Account</button>
-						<div class="login-link-div">
-							<p class="login-link">
-								Already have an account? <a href="#">Log in</a>
-							</p>
+						<div class="button-and-link">
+							<button id="create-account-btn">Create Account</button>
+							<div class="login-link-div">
+								<p class="login-link">
+									Already have an account? <a href="#">Log in</a>
+								</p>
+							</div>
 						</div>
 					</form>
 				</div>
