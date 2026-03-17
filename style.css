@@ -5,16 +5,38 @@
     font-family: Roboto;
 }
 
-
-
 .container {
    display: flex;
 }
 
 .image-section {
-    flex: 1 0 30%;
+    flex: 1 0 35%;
+    height: 100vh;
+    background: url('./images/the-iop-unsplash.png');
+    background-size: 100% 100%;
+}
+
+.logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 10rem;
+    padding: 0.8rem 0;
+    background-color: hsla(214, 82%, 48%, 0.7);
+}
+
+#site-logo {
+    width: 100px;
+    height: 100px;
+}
+
+#logo-text {
+    color: #ffffff;
+    font-size: 32px;
 }
 
 .form-section {
-    flex: 1 0 70%;
+    flex: 1 0 65%;
 }
