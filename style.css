@@ -21,7 +21,7 @@ input:focus {
 
 .container {
    display: flex;
-   height: 100vh;
+   min-height: 100vh;
 }
 
 .image-section {
@@ -81,6 +81,7 @@ input:focus {
 
 .button-and-link {
     padding-left: 2rem;
+    margin-bottom: 1rem;
 }
 
 #create-account-btn {
