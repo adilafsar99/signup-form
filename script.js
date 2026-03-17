@@ -45,4 +45,7 @@ const signupForm = document.querySelector('.signup-form');
 const inputNodes = document.querySelectorAll('input');
 const inputs = Array.from(inputNodes);
 
+signupForm.addEventListener('focusout', (event) => {
+    checkInput(event.target);
+})
 signupForm.addEventListener('submit', handleSubmit);

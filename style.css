@@ -116,6 +116,7 @@ input.invalid {
 
 input.valid {
     border-color: #68ee68;
+    background-color: #f0f0f0;
 }
 
 .error-message {
