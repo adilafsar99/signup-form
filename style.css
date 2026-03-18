@@ -138,3 +138,14 @@ input.valid {
 .visible {
     display: block;
 }
+
+.github-link {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    gap: 2px;
+}
+
+.github-link > a {
+    color: var(--site-color);
+}
