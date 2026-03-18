@@ -1,2 +1,1 @@
-# signup-form
-A signup form page to demonstrate styling form controls.
+Learning the Constraint Validation API was a wonderful experience and combining it with event delegation to set up a single eevnt listener for every input field feels wonderful. Though there must be drawbacks to this method which I am looking forward to learn about.
